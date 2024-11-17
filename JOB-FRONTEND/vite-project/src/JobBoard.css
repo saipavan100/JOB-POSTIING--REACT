@@ -1,0 +1,67 @@
+/* src/components/JobBoard.css */
+.job-board-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .job-board-container h1 {
+    text-align: center;
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .filters label {
+    font-size: 16px;
+  }
+  
+  .filters input {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .filters button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filters button:hover {
+    background-color: #45a049;
+  }
+  
+  .job-listing {
+    margin-top: 20px;
+  }
+  
+  .job-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  .job-item:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .job-item h3 {
+    margin-top: 0;
+  }
+  
+  .job-item p {
+    margin: 5px 0;
+  }
+  
